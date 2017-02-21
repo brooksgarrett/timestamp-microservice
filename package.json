@@ -6,7 +6,15 @@
   "repository": "git@github.com:brooksgarrett/timestamp-microservice.git",
   "author": "Brooks Garrett <brooks+git@brooksgarrett.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "node ./server.js",
+    "watch": "yarn nodemon ./server.js"
+  },
   "dependencies": {
-    "express": "^4.14.1"
+    "express": "^4.14.1",
+    "moment": "^2.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
   }
 }
